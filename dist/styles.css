@@ -73,6 +73,10 @@ dialog{max-width:calc(100vw - 2rem);max-height:calc(100dvh - 2rem);overflow:auto
   .dialog-nav{top:38%}
 }
 
+.developer-credit{color:var(--blush);margin-left:.6rem;border-bottom:1px solid rgba(233,185,176,.45);padding-bottom:.12rem;transition:border-color .2s,color .2s}
+.developer-credit:hover,.developer-credit:focus-visible{color:#fff;border-color:#fff}
+@media(max-width:800px){footer p{display:block;margin:0}.developer-credit{display:block;margin:.65rem 0 0;width:max-content}}
+
 @media(max-height:650px) and (min-width:801px){
   .hero{min-height:650px}
   .hero-copy{padding-top:7rem;padding-bottom:2rem}
